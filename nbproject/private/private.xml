@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/C:/secondNB/Login/src/vista/frmLogin.java</file>
+            <file>file:/C:/secondNB/Login/src/modelo/VentasDAO.java</file>
+            <file>file:/C:/secondNB/Login/src/modelo/ProductoDAO.java</file>
+            <file>file:/C:/secondNB/Login/src/controlador/ControladorProducto.java</file>
+            <file>file:/C:/secondNB/Login/src/vista/frmVentas.java</file>
+            <file>file:/C:/secondNB/Login/src/controlador/ControladorVentas.java</file>
+            <file>file:/C:/secondNB/Login/src/modelo/DetalleVenta.java</file>
+            <file>file:/C:/secondNB/Login/src/main/LoginMain.java</file>
+            <file>file:/C:/secondNB/Login/src/modelo/Ventas.java</file>
+        </group>
+    </open-files>
+</project-private>
