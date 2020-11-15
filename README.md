@@ -6,22 +6,21 @@ Crud basico en java con mysql, mvc completo con login, mantenimiento productos y
 - cambiela con la modadlidad de su base de datos
 - En mi tabla vendedor existe el campo password
 
-# Para probar el proyecto:
+Para probar el proyecto:
 - Restaure la bd --> bd_proyecto.sql
 - puede restaurar la base de dato usando Xamp o Mysql workbench
 
-
-# Usuarios de prueba:
+Usuarios de prueba:
 - oscar    12345,
 - pedro    12345,
 - susana   12345
 
-# Las librerias Necesarias 
+Las librerias Necesarias: 
 - las encuentra en la carpeta librerias del proyecto
 - descargalas en cualquier ubicacion y al cargar el proyecto las pedira
 - entonces importalas al proyecto
 - El proyecto se realizo con Netbeans 8.2
 
-# Para ejecutar el proyecto 
+Para ejecutar el proyecto:
 - en el paquete Main clase LoginMain es la clase principal 
 - desde aqui se corre el programa
