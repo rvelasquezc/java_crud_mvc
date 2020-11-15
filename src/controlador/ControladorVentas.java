@@ -50,6 +50,18 @@ public class ControladorVentas implements ActionListener {
         this.vVentas.btnAgregar.addActionListener(this);
         this.vVentas.btnGenerarVenta.addActionListener(this);
         fecha();
+        generarSerie();
+    }
+
+    public void generarSerie() {
+        String serie = vDAO.NroSerieVenta();
+        if (serie == null) {
+            vVentas.txtNumeroFactura.setText("1");
+        } else {
+            int incremento = Integer.parseInt(serie);
+            incremento = incremento + 1;
+            vVentas.txtNumeroFactura.setText(String.valueOf(incremento));
+        }
     }
 
     public void buscarCliente() {
@@ -164,13 +176,33 @@ public class ControladorVentas implements ActionListener {
         Calendar calendar = new GregorianCalendar();
         vVentas.txtFecha.setText("" + calendar.get(Calendar.YEAR) + "-" + calendar.get(Calendar.MONTH) + "-" + calendar.get(Calendar.DAY_OF_MONTH));
     }
-    
-    public void restarStock(){
-        for(int i = 0; i< vVentas.tablaDetalle.getRowCount(); i++){
+
+    public void actualizaStock() {
+        for (int i = 0; i < vVentas.tablaDetalle.getRowCount(); i++) {
             idProducto = Integer.parseInt(vVentas.tablaDetalle.getValueAt(i, 1).toString());
             cantidad = Integer.parseInt(vVentas.tablaDetalle.getValueAt(i, 3).toString());
-            int saldo = producto.getStock()- cantidad;
-            pDAO.actualizaStock(saldo, idProducto);
+            int saldo = producto.getStock() - cantidad;
+            pDAO.restaStock(saldo, idProducto);
+        }
+    }
+
+    public void limpiar(){
+        limpiarTabla();
+        vVentas.txtCodigoCliente.setText("");
+        vVentas.txtNombreCliente.setText("");
+        vVentas.txtDireccion.setText("");
+        vVentas.txtNit.setText("");   
+        vVentas.txtCodigoProducto.setText("");
+        vVentas.txtNombreProducto.setText("");
+        vVentas.txtPrecio.setText("");
+        vVentas.txtStock.setText("");
+        vVentas.txtCantidad.setText("");
+        vVentas.txtTotalPagar.setText("");
+    }
+    
+    public void limpiarTabla(){
+        for (int i = 0; i < dtm.getRowCount(); i++) {
+            dtm.removeRow(i);
         }
     }
 
@@ -188,9 +220,18 @@ public class ControladorVentas implements ActionListener {
 
         }
         if (e.getSource() == vVentas.btnGenerarVenta) {
-            guardarVenta();
-            guardarDetalleVenta();
-            restarStock();
+            if (vVentas.txtTotalPagar.getText().equals("")) {
+                JOptionPane.showMessageDialog(null, "Datos incompletos para generar venta");
+
+            } else {
+                guardarVenta();
+                guardarDetalleVenta();
+                actualizaStock();
+                JOptionPane.showMessageDialog(null, "Factura generado con exito !!");
+                limpiar();
+                generarSerie();
+            }
+
         }
 
     }

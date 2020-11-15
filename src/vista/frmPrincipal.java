@@ -59,6 +59,11 @@ public class frmPrincipal extends javax.swing.JFrame {
 
         mnuAyuda.setMnemonic('o');
         mnuAyuda.setText("Ayuda");
+        mnuAyuda.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                mnuAyudaActionPerformed(evt);
+            }
+        });
         mnuMenu.add(mnuAyuda);
 
         mnuSalir.setMnemonic('x');
@@ -194,6 +199,12 @@ public class frmPrincipal extends javax.swing.JFrame {
     private void mnuMenuActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_mnuMenuActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_mnuMenuActionPerformed
+
+    private void mnuAyudaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_mnuAyudaActionPerformed
+        frmAyuda ayuda = new frmAyuda();
+        centrarVentana(ayuda);
+        
+    }//GEN-LAST:event_mnuAyudaActionPerformed
     public void centrarVentana(JInternalFrame frame) {
         desktopPane.add(frame);
         Dimension fprincipal = desktopPane.getSize();
