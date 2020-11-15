@@ -19,3 +19,5 @@ susana   12345
 Las librerias Necesarias las encuentra en la carpeta librerias del proyecto
 El proyecto se realizo con Netbeans 8.2
 
+Para ejecutar el proyecto en el paquete Main clase LoginMain es la clase principal 
+desde aqui se corre el programa
