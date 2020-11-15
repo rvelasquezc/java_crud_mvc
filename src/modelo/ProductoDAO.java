@@ -13,7 +13,7 @@ public class ProductoDAO extends Conexion {
 
     Producto producto = new Producto();
 
-    public String actualizaStock(int cant, int idProducto) {
+    public String restaStock(int cant, int idProducto) {
         try {
             this.conectar();
             sql = "update producto set Stock=? where idProducto =? ";

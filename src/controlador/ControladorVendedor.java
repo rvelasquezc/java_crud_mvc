@@ -51,7 +51,6 @@ public class ControladorVendedor implements ActionListener, MouseListener {
             JOptionPane.showMessageDialog(null, "credenciales vacio intenta de nuevo ");
         } else {
             usuario = vDAO.validaVendedor(user, pass);
-            System.out.println("user y pass " + user + " " + pass);
             if ((usuario.getUsuario() != null) && (usuario.getPassword() != null)) {
                 frmPrincipal principal = new frmPrincipal();
                 principal.setVisible(true);
@@ -120,7 +119,7 @@ public class ControladorVendedor implements ActionListener, MouseListener {
         DefaultTableModel modeloTable = new DefaultTableModel();
         datoTabla.setModel(modeloTable);
         modeloTable.addColumn("CODIGO");
-        modeloTable.addColumn("DNI");
+        modeloTable.addColumn("NIT");
         modeloTable.addColumn("NOMBRES");
         modeloTable.addColumn("TELEFONO");
         modeloTable.addColumn("ESTADO");

@@ -16,6 +16,23 @@ public class VentasDAO extends Conexion {
     Ventas ventas = new Ventas();
     String sql;
     int respuesta;
+    
+    public String NroSerieVenta(){
+        String serie ="";
+        
+        try {
+             this.conectar();
+            sql = "select MAX(idVentas) from ventas";
+            ps = this.getMiConexion().prepareStatement(sql);
+            rs = ps.executeQuery();
+            while(rs.next()){
+                 serie = rs.getString(1);
+            }
+        } catch (Exception e) {
+            System.out.println(e.getMessage());
+        }
+    return serie;
+    }
 
     public int guardarVentas(Ventas ventas) {
         try {
