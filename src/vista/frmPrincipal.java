@@ -138,6 +138,11 @@ public class frmPrincipal extends javax.swing.JFrame {
         });
 
         mnuReportesVentas.setText("Reporte de Ventas");
+        mnuReportesVentas.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                mnuReportesVentasActionPerformed(evt);
+            }
+        });
         mnuReportes.add(mnuReportesVentas);
 
         menuBar.add(mnuReportes);
@@ -205,6 +210,11 @@ public class frmPrincipal extends javax.swing.JFrame {
         centrarVentana(ayuda);
         
     }//GEN-LAST:event_mnuAyudaActionPerformed
+
+    private void mnuReportesVentasActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_mnuReportesVentasActionPerformed
+        frmReporteFactura factura = new frmReporteFactura();
+         centrarVentana(factura);
+    }//GEN-LAST:event_mnuReportesVentasActionPerformed
     public void centrarVentana(JInternalFrame frame) {
         desktopPane.add(frame);
         Dimension fprincipal = desktopPane.getSize();
