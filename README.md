@@ -7,7 +7,7 @@ Crud basico en java con mysql, mvc completo con login, mantenimiento productos y
 - En mi tabla vendedor existe el campo password
 
 Para probar el proyecto:
-- Restaure la bd --> bd_proyecto.sql
+- Restaure la bd --> bd_proyecto.sql  la encontrara en los archivos
 - puede restaurar la base de dato usando Xamp o Mysql workbench
 
 Usuarios de prueba:
