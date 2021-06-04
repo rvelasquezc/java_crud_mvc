@@ -15,6 +15,8 @@ Usuarios de prueba:
 - pedro    12345,
 - susana   12345
 
+https://github.com/rvelasquezc/java_crud_mvc/blob/main/inicio.PNG
+
 Las librerias Necesarias: 
 - las encuentra en la carpeta librerias del proyecto
 - descargalas en cualquier ubicacion y al cargar el proyecto las pedira
