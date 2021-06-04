@@ -15,7 +15,7 @@ Usuarios de prueba:
 - pedro    12345,
 - susana   12345
 
-https://github.com/rvelasquezc/java_crud_mvc/blob/main/inicio.PNG
+![Login](https://github.com/rvelasquezc/java_crud_mvc/blob/main/inicio.PNG)
 
 Las librerias Necesarias: 
 - las encuentra en la carpeta librerias del proyecto
