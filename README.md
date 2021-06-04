@@ -17,6 +17,26 @@ Usuarios de prueba:
 
 ![Login](https://github.com/rvelasquezc/java_crud_mvc/blob/main/inicio.PNG)
 
+![Login](https://github.com/rvelasquezc/java_crud_mvc/blob/main/mnt cliente.PNG)
+
+![Login](https://github.com/rvelasquezc/java_crud_mvc/blob/main/mnt producto.PNG)
+
+![Login](https://github.com/rvelasquezc/java_crud_mvc/blob/main/mnt vendedor.PNG)
+
+![Login](https://github.com/rvelasquezc/java_crud_mvc/blob/main/ventana de ayuda.PNG)
+
+![Login](https://github.com/rvelasquezc/java_crud_mvc/blob/main/Generar venta form.PNG)
+
+![Login](https://github.com/rvelasquezc/java_crud_mvc/blob/main/Buscar cliente y producto.PNG)
+
+![Login](https://github.com/rvelasquezc/java_crud_mvc/blob/main/Detalle venta.PNG)
+
+![Login](https://github.com/rvelasquezc/java_crud_mvc/blob/main/agregar detalle.PNG)
+
+![Login](https://github.com/rvelasquezc/java_crud_mvc/blob/main/btn imprime factura.PNG)
+
+![Login](https://github.com/rvelasquezc/java_crud_mvc/blob/main/Reporte factura.PNG)
+
 Las librerias Necesarias: 
 - las encuentra en la carpeta librerias del proyecto
 - descargalas en cualquier ubicacion y al cargar el proyecto las pedira
