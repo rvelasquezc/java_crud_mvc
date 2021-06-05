@@ -17,25 +17,25 @@ Usuarios de prueba:
 
 ![Login](https://github.com/rvelasquezc/java_crud_mvc/blob/main/inicio.PNG)
 
-![Login](https://github.com/rvelasquezc/java_crud_mvc/blob/main/mnt cliente.PNG)
+![Clientes](https://github.com/rvelasquezc/java_crud_mvc/blob/main/mnt%20cliente.PNG)
 
-![Login](https://github.com/rvelasquezc/java_crud_mvc/blob/main/mnt producto.PNG)
+![Productos](https://github.com/rvelasquezc/java_crud_mvc/blob/main/mnt%20producto.PNG)
 
-![Login](https://github.com/rvelasquezc/java_crud_mvc/blob/main/mnt vendedor.PNG)
+![Vendedor](https://github.com/rvelasquezc/java_crud_mvc/blob/main/mnt%20vendedor.PNG)
 
-![Login](https://github.com/rvelasquezc/java_crud_mvc/blob/main/ventana de ayuda.PNG)
+![Ayuda](https://github.com/rvelasquezc/java_crud_mvc/blob/main/ventana%20de%20ayuda.PNG)
 
-![Login](https://github.com/rvelasquezc/java_crud_mvc/blob/main/Generar venta form.PNG)
+![GeneraVenta](https://github.com/rvelasquezc/java_crud_mvc/blob/main/Generar%20venta%20form.PNG)
 
-![Login](https://github.com/rvelasquezc/java_crud_mvc/blob/main/Buscar cliente y producto.PNG)
+![BuscarCliente](https://github.com/rvelasquezc/java_crud_mvc/blob/main/Buscar%20cliente%20y%20producto.PNG)
 
-![Login](https://github.com/rvelasquezc/java_crud_mvc/blob/main/Detalle venta.PNG)
+![DetalleVenta](https://github.com/rvelasquezc/java_crud_mvc/blob/main/Detalle%20venta.PNG)
 
-![Login](https://github.com/rvelasquezc/java_crud_mvc/blob/main/agregar detalle.PNG)
+![AgregarDetalle](https://github.com/rvelasquezc/java_crud_mvc/blob/main/agregar%20detalle.PNG)
 
-![Login](https://github.com/rvelasquezc/java_crud_mvc/blob/main/btn imprime factura.PNG)
+![ImprimeFactura](https://github.com/rvelasquezc/java_crud_mvc/blob/main/btn%20imprime%20factura.PNG)
 
-![Login](https://github.com/rvelasquezc/java_crud_mvc/blob/main/Reporte factura.PNG)
+![Reporte](https://github.com/rvelasquezc/java_crud_mvc/blob/main/Reporte%20factura.PNG)
 
 Las librerias Necesarias: 
 - las encuentra en la carpeta librerias del proyecto
